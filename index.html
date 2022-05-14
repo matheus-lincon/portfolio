@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Matheus Lincon's Web Lab" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matheus Lincon | Portfólio</title>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header"></header>
+
+    <!-- Main content -->
+    <main>
+      <div class="container">
+        <!-- aside informations -->
+        <aside id="aside">
+          <!-- profile card informations -->
+          <div class="profile-card" id="profile-info">
+            <div class="profile-image">
+              <img src="./images/pixelart-perfil.png" alt="Profile Image" />
+            </div>
+            <h1 id="profile-name">Matheus Lincon</h1>
+            <p id="profile-description">Front-End Trainee Developer</p>
+          </div>
+          <!---->
+
+          <!-- profile links card -->
+          <div class="profile-card" id="profile-link-card">
+            <ul>
+              <li>
+                <a target="_blank" href="#">
+                  <img src="./images/map-pin.svg" alt="Map Icon" />
+                  Brasil</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="https://www.github.com/matheus-lincon">
+                  <img src="./images/github.svg" alt="GitHub Icon" />
+                  matheus-lincon</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/matheus-lincon-10010"
+                >
+                  <img src="./images/linkedin.svg" alt="LinkedIn Icon" />
+                  matheus.lincon.10010</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!---->
+
+          <!-- profile technologies information -->
+          <div class="profile-card" id="profile-tech">
+            <h1 class="profile-title">Tecnologias</h1>
+            <div class="tech-labels">
+              <div class="label">HTML</div>
+              <div class="label">CSS</div>
+              <div class="label">JavaScript</div>
+              <div class="label">Git</div>
+              <div class="label">GitHub</div>
+            </div>
+          </div>
+          <!---->
+
+          <!-- profile experiences information -->
+          <div class="profile-card" id="profile-experiences">
+            <h1 class="profile-title">Experiências</h1>
+            <div class="experiences">
+              <ul>
+                <li>
+                  <p class="desc-title">HTML</p>
+                  <p class="desc-date">2020 - Atualmente</p>
+                </li>
+
+                <li>
+                  <p class="desc-title">CSS</p>
+                  <p class="desc-date">2020 - Atualmente</p>
+                </li>
+
+                <li>
+                  <p class="desc-title">JavaScript</p>
+                  <p class="desc-date">2020 - Atualmente</p>
+                </li>
+
+                <li>
+                  <p class="desc-title">Git</p>
+                  <p class="desc-date">2021 - Atualmente</p>
+                </li>
+
+                <li>
+                  <p class="desc-title">GitHub</p>
+                  <p class="desc-date">2021 - Atualmente</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!---->
+
+          <!-- profile education information -->
+          <div class="profile-card" id="profile-education">
+            <h1 class="profile-title">Educação</h1>
+            <div class="experiences">
+              <ul>
+                <li>
+                  <p class="desc-title">Rocketseat</p>
+                  <p class="desc-date">2020 - Atualmente</p>
+                  <p class="desc-detail">Discover</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!---->
+        </aside>
+        <!-- end aside information -->
+
+        <!-- projects container -->
+        <div class="project-container">
+          <header id="projects-header">
+            <h1>Meus projetos</h1>
+            <a href="#" class="button" id="show-more">Veja todos</a>
+          </header>
+
+          <div class="projects"></div>
+        </div>
+        <!-- end project container -->
+      </div>
+      <!-- end main content -->
+    </main>
+
+    <!-- SCRIPT -->
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+
+  --margin: 2.5rem;
+  --card-width: 21.75rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+
+  color: #f8f8f8;
+  background-color: var(--body-bg-color);
+}
